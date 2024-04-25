@@ -2,13 +2,13 @@ from pandas import DataFrame, Series, NA, read_csv
 import os
 
 
-etn = 73 # от экватора до полюса
-wte = 289 # с запада на восток
-altCount = 12 # количество высот
+# etn = 73 # от экватора до полюса
+# wte = 289 # с запада на восток
+# altCount = 12 # количество высот
 
-# etn = 3
-# wte = 5
-# altCount = 3
+etn = 3
+wte = 5
+altCount = 3
 
 step = wte * altCount
 
